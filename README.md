@@ -1,4 +1,6 @@
-[index.html](https://github.com/user-attachments/files/25411815/index.html)# BO-webshop-M3
+html code.
+
+[ind.ex.html](https://github.com/user-attachments/files/25411815/index.html)# BO-webshop-M3
 
 [<!DOCTYPE html>
 <html lang="en">
@@ -36,6 +38,7 @@
 
 
 
+css code.
 
 [style.css](https://github.com/user-attachments/files/25411800/style.css)
 :root {
