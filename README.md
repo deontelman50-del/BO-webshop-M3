@@ -1,8 +1,6 @@
 html code.
 
-[ind.ex.html](https://github.com/user-attachments/files/25411815/index.html)# BO-webshop-M3
-
-[<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -30,17 +28,10 @@ html code.
     </footer>
 </body>
 
-</html>Uploading index.html…]()
-
-
-
-
-
-
+</html>
 
 css code.
 
-[style.css](https://github.com/user-attachments/files/25411800/style.css)
 :root {
     --primary-color: limegreen;
     --secondary-color: white;
@@ -114,5 +105,3 @@ footer {
     justify-content: center;
     align-items: center;
 }
-
-</html>[index.html](https://github.com/user-attachments/files/25411778/index.html)
