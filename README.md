@@ -1,4 +1,7 @@
 [index.html](https://github.com/user-attachments/files/25438409/index.html)
-[porducts.html](https://github.com/user-attachments/files/25438411/porducts.html)
 [style.css](https://github.com/user-attachments/files/25438414/style.css)
+[porducts.html](https://github.com/user-attachments/files/25438411/porducts.html)
 [products.css](https://github.com/user-attachments/files/25438413/products.css)
+[Uploading about-us.html…]()
+[about-us.html](https://github.com/user-attachments/files/25930412/about-us.html)
+[about-us.css](https://github.com/user-attachments/files/25930422/about-us.css)
