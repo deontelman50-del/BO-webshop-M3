@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webshop</title>
+    <link rel="stylesheet" href="landingspage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+    <script src="producten.js"></script>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#products">Products</a></li>
+            <li><a href="cart.html">shopping cart</a></li>
+        </ul>
+    </nav>
+    <div class="landingspage">
+        <div class="landingspage-image">
+        </div>
+        <div class="landingspage-button">
+            <h1 class="landingspage-h1">kawasaki motors</h1>
+            <button class="btn">
+                <a href="cart.html">Shop Now</a>
+            </button>
+        </div>
+        <div class="landingspage-products">
+            <h1 class="products-h1" id="products">kawasaki motors</h1>
+            <section>
+                <div class="filters">
+                    <button class="btn2" onclick="filterProducten('alles')">alles</button>
+                    <button class="btn2" onclick="filterProducten('motor')">motor</button>
+                    <button class="btn2" onclick="filterProducten('adventure')">adventure</button>
+                    <button class="btn2" onclick="filterProducten('classic')">classic</button>
+                    <button class="btn2" onclick="filterProducten('sport')">sport</button>
+                </div>
+                <ul class="products">
+                    <li class="product" data-category="adventure" onclick="addToCart('Adventure & Tourer',9.149)">
+                        <img src="img/Adventure & Tourer-motor.jpg" alt="motor">
+                        <div class="text-products">Adventure & Tourer</div>
+                    </li>
+                    <li class="product" data-category="adventure" onclick="addToCart('Adventure',7.549)">
+                        <img src="img/Adventure.png" alt="motor">
+                        <div class="text-products">Adventure</div>
+                    </li>
+                    <li class="product" data-category="classic" onclick="addToCart('Classic',5.499)">
+                        <img src="img/Classic-motor.png" alt="motor">
+                        <div class="text-products">Classic</div>
+                    </li>
+                    <li class="product" data-category="motor" onclick="addToCart('Hypersport',58.400)">
+                        <img src="img/Hypersport-motor.jpg" alt="motor">
+                        <div class="text-products">Hypersport</div>
+                    </li>
+                    <li class="product" data-category="motor" onclick="addToCart('Retro Sport',14.399)">
+                        <img src="img/Retro Sport-motor.jpg" alt="motor">
+                        <div class="text-products">Retro Sport</div>
+                    </li>
+                </ul>
+                <ul class="products2">
+                    <li class="product" data-category="sport" onclick="addToCart('Sport Tourer',8.899)">
+                        <img src="img/Sport Tourer.jpg" alt="motor">
+                        <div class="text-products">Sport Tourer</div>
+                    </li>
+                    <li class="product" data-category="motor" onclick="addToCart('Supernaked',14.999)">
+                        <img src="img/Supernaked-motor.jpg" alt="motor">
+                        <div class="text-products">Supernaked</div>
+                    </li>
+                    <li class="product" data-category="motor" onclick="addToCart('Supersport & Sport',13.899)">
+                        <img src="img/Supersport & Sport-motor.jpg" alt="motor">
+                        <div class="text-products">Supersport & Sport</div>
+                    </li>
+                    <li class="product" data-category="motor" onclick="addToCart('Urban Cruiser',7.499)">
+                        <img src="img/Urban Cruiser-motor.png" alt="motor">
+                        <div class="text-products">Urban Cruiser</div>
+                    </li>
+                    <li class="product" data-category="motor" onclick="addToCart('A2 Bikes',8.199)">
+                        <img src="img/A2 Bikes-motor.jpg" alt="motor">
+                        <div class="text-products">A2 bike</div>
+                    </li>
+                </ul>
+            </section>
+            <footer>
+                kawasaki motors &copy; 2026
+            </footer>
+</body>
+
+</html>
