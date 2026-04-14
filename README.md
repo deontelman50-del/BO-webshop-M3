@@ -1,5 +1,1 @@
-[cart.html](https://github.com/user-attachments/files/26702144/cart.html)
-[cart.js](https://github.com/user-attachments/files/26702146/cart.js)
-[landingspage.css](https://github.com/user-attachments/files/26702150/landingspage.css)
-[landingspage.html](https://github.com/user-attachments/files/26702152/landingspage.html)
-[producten.js](https://github.com/user-attachments/files/26702154/producten.js)
+
